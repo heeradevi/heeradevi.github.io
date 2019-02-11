@@ -223,10 +223,7 @@
 					<div class="circle" id="circles-4"></div>
 					<p>JavaScript</p>
 				</div>
-				<div class="col-md-2 skills-grid text-center">
-					<div class="circle" id="circles-5"></div>
-					<p>Python</p>
-				</div>
+				
 				<div class="col-md-2 skills-grid text-center">
 					<div class="circle" id="circles-6"></div>
 					<p>Java</p>
@@ -239,7 +236,7 @@
 					var colors = [
 							['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff'], ['#6ed4c0', '#ffffff']
 						];
-					var percentage=[85,70,70,50,70,75];
+					var percentage=[85,70,80,50,70];
 					for (var i = 1; i <7; i++)
 					 {
 						var child = document.getElementById('circles-' + i);
